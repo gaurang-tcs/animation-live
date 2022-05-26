@@ -1,3 +1,9 @@
 .list{
-    margin-top: 40px;
+    margin-top: 65px;
+    z-index: 1;
+}
+
+.offer{
+    height: 810px;
+    width: 100%;
 }
