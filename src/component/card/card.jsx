@@ -93,7 +93,7 @@ const DominosCard = () => {
 
                 </Bounce>
             ) :
-                <div style={{ height: "500px" }}></div>
+                <div style={{ height: "300px" }}></div>
             }
         </div>
     )

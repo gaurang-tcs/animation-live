@@ -23,7 +23,7 @@ const Footer = () => {
 
     const [footer, setFooter] = useState(false);
     const animation = () => {
-        if (window.scrollY >= 700) {
+        if (window.scrollY >= 800) {
             setFooter(true);
         } else {
             setFooter(false);

@@ -1,7 +1,7 @@
 .bestseller {
     display: flex;
     flex-direction: column;
-    margin-left: 328px;
+    margin-left: 17%;
 }
 
 .best-title {
@@ -13,7 +13,7 @@
 
 .bestseller-list {
     display: grid;
-    grid-template-columns: 320px 320px 320px 320px;
+    grid-template-columns: 21% 21% 21% 21% ;
 }
 
 .bestseller-card {

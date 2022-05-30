@@ -10,7 +10,7 @@ const BestSeller = () => {
 
     const [best, setBest] = useState(false);
     const animation = () => {
-        if (window.scrollY >= 310) {
+        if (window.scrollY >= 318) {
             setBest(true);
         } else {
             setBest(false);
@@ -98,13 +98,13 @@ export default BestSeller;
 
 
 const RotateInDownLeft = styled.div`
- animation: 5s ${keyframes `${rotateInDownLeft}`} ease;
+ animation: 10s ${keyframes `${rotateInDownLeft}`} ease;
 `;
 
 const RotateInDownRight = styled.div`
- animation: 5s ${keyframes `${rotateInDownRight}`} ease;
+ animation: 10s ${keyframes `${rotateInDownRight}`} ease;
 `;
 
 const FadeInDown = styled.div`
-      animation: 7s ${keyframes`${fadeInDown}`};
+      animation: 12s ${keyframes`${fadeInDown}`};
 `;
